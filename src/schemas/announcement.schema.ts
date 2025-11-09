@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const announcementCategorySchema = z.enum(["awaria", "zgubione", "sprzedaż", "ogólne"]);
+export const announcementCategorySchema = z.enum(["awaria", "zgubione", "sprzedaż", "ogólne", "wydarzenia"]);
 export const announcementStatusSchema = z.enum(["pending", "approved", "rejected"]);
 export const announcementScopeSchema = z.enum(["estate", "building"]);
 
